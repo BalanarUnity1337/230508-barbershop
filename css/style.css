@@ -2,3 +2,12 @@ body {
   font-family: "PT Sans Narrow", "Tahoma", sans-serif;
   text-transform: uppercase;
 }
+
+/*.button {
+  text-decoration: none;
+}
+
+.current {
+  pointer-events: none;
+  cursor: default;
+}*/
