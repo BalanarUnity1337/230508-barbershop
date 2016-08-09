@@ -1,6 +1,21 @@
+/* #242424 - цвет фона, пока все основные шумные фоны не загрузятся */
 body {
   font-family: "PT Sans Narrow", "Tahoma", sans-serif;
   text-transform: uppercase;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.4em;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 1.4em;
 }
 
 /*.button {
