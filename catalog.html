@@ -43,42 +43,53 @@
         <a href="#">Магазин</a>
         <a class="current" href="#">Средства для ухода</a>
       </div>
-      <form class="filters" action="https://echo.htmlacademy.ru" method="post">
-        <div class="filters-producers">
-          <h2 class="filters-name">Производители:</h2>
-          <label>
-            <input type="checkbox" name="producer-1" checked>Baxter of California
-          </label>
-          <label>
-            <input type="checkbox" name="producer-2">Mr Natty
-          </label>
-          <label>
-            <input type="checkbox" name="producer-3" checked>Suavecito
-          </label>
-          <label>
-            <input type="checkbox" name="producer-4">Malin+Goetz
-          </label>
-          <label>
-            <input type="checkbox" name="producer-5">Murray’s
-          </label>
-          <label>
-            <input type="checkbox" name="producer-6" checked>American Crew
-          </label>
-        </div>
-        <div class="filters-groups-products">
-          <h2 class="filters-name">Группы товаров:</h2>
-          <label>
-            <input type="radio" name="grp-products" value="grp-prod-1">Бритвенные принадлежности
-          </label>
-          <label>
-            <input type="radio" name="grp-products" value="grp-prod-2" checked>Средства для ухода
-          </label>
-          <label>
-            <input type="radio" name="grp-products" value="grp-prod-3">Аксессуары
-          </label>
-        </div>
+      <div class="filters">
+        <form class="filters-form" action="https://echo.htmlacademy.ru" method="post">
+          <div class="filters-producers">
+            <h2 class="filters-name">Производители:</h2>
+            <div class="filters-row">
+              <input type="checkbox" name="producer-1" id="producer-1" checked>
+              <label for="producer-1">Baxter of California</label>
+            </div>
+            <div class="filters-row">
+              <input type="checkbox" name="producer-2" id="producer-2">
+              <label for="producer-2">Mr Natty</label>
+            </div>
+            <div class="filters-row">
+              <input type="checkbox" name="producer-3" id="producer-3" checked>
+              <label for="producer-3">Suavecito</label>
+            </div>
+            <div class="filters-row">
+              <input type="checkbox" name="producer-4" id="producer-4">
+              <label for="producer-4">Malin+Goetz</label>
+            </div>
+            <div class="filters-row">
+              <input type="checkbox" name="producer-5" id="producer-5">
+              <label for="producer-5">Murray’s</label>
+            </div>
+            <div class="filters-row">
+              <input type="checkbox" name="producer-6" id="producer-6" checked>
+              <label for="producer-6">American Crew</label>
+            </div>
+          </div>
+          <div class="filters-groups-products">
+            <h2 class="filters-name">Группы товаров:</h2>
+            <div class="filters-row">
+              <input type="radio" name="grp-products" value="grp-prod-1" id="grp-prod-1">
+              <label for="grp-prod-1">Бритвенные принадлежности</label>
+            </div>
+            <div class="filters-row">
+              <input type="radio" name="grp-products" value="grp-prod-2" id="grp-prod-2" checked>
+              <label for="grp-prod-2">Средства для ухода</label>
+            </div>
+            <div class="filters-row">
+              <input type="radio" name="grp-products" value="grp-prod-3" id="grp-prod-3">
+              <label for="grp-prod-3">Аксессуары</label>
+            </div>
+          </div>
           <button class="button" type="submit">Показать</button>
         </form>
+      </div>
       <div class="catalog">
         <div class="catalog-content">
           <article class="catalog-content-item">
